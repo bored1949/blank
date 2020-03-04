@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sign in</title>
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+      @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+        body {
+          background: linear-gradient(45deg, #57003f 0%,#f57453 100%);
+           font-family: 'Ubuntu';
+           overflow: hidden;
+      }
+      .form_bg {
+          background-color:#e1e3e1;
+          color:#666;
+          padding:20px;
+          border-radius:10px;
+          position: absolute;
+          border:14px solid #fff;
+          margin: auto;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          width: 640px;
+          height: 560px;
+      }
+      .align-center {
+          text-align:center;
+      }
+      .btncls{
+          background-color:#B80C4D;
+          border: #2e6da4;
+        	font-family:'Ubuntu mono';
+      	  font-size: 15px;
+          color: #fff;
+          letter-spacing: 1px;
+          padding: 8px 12px;
+          font-size: 14px;
+          font-weight: normal;
+
+          border-radius: 4px;
+          line-height: 1.5;
+          text-decoration:none;
+      }
+
+      .btncls:hover{
+
+          background-color:black;
+          border: #2e6da4;
+          font-family:'Ubuntu mono';
+          font-size: 15px;
+          color: #00d639;
+          letter-spacing: 1px;
+          padding: 8px 12px;
+          font-size: 14px;
+          font-weight: normal;
+          border-radius: 4px;
+          line-height: 1.5;
+          text-decoration:none;
+      }
+      .form-control {
+          background: -webkit-linear-gradient(bottom, #000000, #EEEEEE 175px);
+          background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+          background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+          margin: auto;
+          position: relative;
+          width: 550px;
+          height: 450px;
+          font-family:'Ubuntu mono';
+          font-size: 18px;
+          line-height: 24px;
+          font-weight: bold;
+          color: #09C;
+          text-decoration: none;
+          border-radius: 10px;
+          padding: 10px;
+          border: 1px solid #999;
+          border: inset 1px solid #333;
+          -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+          -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+      }
+      ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+          color: #00d639;
+          opacity: 1; /* Firefox */
+      }
+
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+          color: #00d639;
+      }
+
+      ::-ms-input-placeholder { /* Microsoft Edge */
+          color: #00d639;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+    <div class="row">
+        <div class="form_bg">
+            <form>
+                 <h2 class="text-center"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Login</h2>
+                <br/>
+                <div class="form-group">
+                  <br/> <br/>
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="email" class="form-control" style="width: 560px; height: 35px; align: center;"id="userid" placeholder="$Email:~">
+                </div>
+                <br/> <br/>
+                <div class="form-group">
+                  <br/> <br/>
+
+                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+                    <input type="password" class="form-control" style="width: 560px; height: 35px; align: center;"id="pwd" placeholder="$Password:~">
+                </div>
+                <br/>
+                <br/> <br/>
+                <br/> <br/>
+
+                <div class="align-center">
+                    <button type="submit" class="btncls" style="width:140px; height: 36px;"id="login">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+  </body>
+</html>
